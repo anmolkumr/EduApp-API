@@ -14,7 +14,7 @@ db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 
 // Define Book schema
 const bookSchema = new mongoose.Schema({
-  student_class: String,
+  student_class: Number,
   subject: String,
   language: String,
   chapterNumber: Number,
